@@ -1,0 +1,6 @@
+framework module Pods_FTFoldableTableView_Example {
+  umbrella header "Pods-FTFoldableTableView_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

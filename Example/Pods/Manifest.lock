@@ -1,0 +1,14 @@
+PODS:
+  - FTFoldableTableView (0.1.0)
+
+DEPENDENCIES:
+  - FTFoldableTableView (from `../`)
+
+EXTERNAL SOURCES:
+  FTFoldableTableView:
+    :path: ../
+
+SPEC CHECKSUMS:
+  FTFoldableTableView: af56f61146ed146ee692682605cf2ae289737179
+
+COCOAPODS: 0.38.2
