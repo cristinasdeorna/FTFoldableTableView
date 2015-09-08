@@ -1,0 +1,12 @@
+source 'https://github.com/CocoaPods/Specs.git'
+use_frameworks!
+
+target 'FTFoldableTableView_Example', :exclusive => true do
+  pod "FTFoldableTableView", :path => "../"
+end
+
+target 'FTFoldableTableView_Tests', :exclusive => true do
+  pod "FTFoldableTableView", :path => "../"
+
+  
+end
