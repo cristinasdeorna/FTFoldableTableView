@@ -8,6 +8,9 @@
 
 #import <UIKit/UIKit.h>
 
+@class FTFoldItemList;
 @interface FTFoldableTableView : UITableView
+
+@property(nonatomic, strong)FTFoldItemList *foldItemList;
 
 @end

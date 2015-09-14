@@ -7,89 +7,119 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0BBAE7EED5F35591AB12C67F02C5811E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32C39B7A46D3884DF007F8C04C95758F /* Foundation.framework */; };
-		171D64A7754943031FA80190BED1A6A7 /* Pods-FTFoldableTableView_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 910335F1B9FB745D60B62641D8999A28 /* Pods-FTFoldableTableView_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		92C062B60FD21844268DAEAD074F4DAA /* Pods-FTFoldableTableView_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 998D48FE589BCEAF25AA4955739E193D /* Pods-FTFoldableTableView_Tests-dummy.m */; };
-		A9E4E2931B9EEEC000FCBE16 /* FTFoldItem.m in Sources */ = {isa = PBXBuildFile; fileRef = A9E4E2921B9EEEC000FCBE16 /* FTFoldItem.m */; };
-		A9E4E2961B9EF45000FCBE16 /* FTFoldItemList.m in Sources */ = {isa = PBXBuildFile; fileRef = A9E4E2951B9EF45000FCBE16 /* FTFoldItemList.m */; };
-		A9E4E2991B9EFB8900FCBE16 /* FTFoldableTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = A9E4E2981B9EFB8900FCBE16 /* FTFoldableTableView.m */; };
-		B703B63E6B4F5A64BAB49241972676B3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32C39B7A46D3884DF007F8C04C95758F /* Foundation.framework */; };
-		BCA0853A62FE5D07F545437E161C944C /* Pods-FTFoldableTableView_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 154336E7108FEA4B7E4E99045A66E342 /* Pods-FTFoldableTableView_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F9E01B7334D655C9678F46122B310F28 /* Pods-FTFoldableTableView_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 840EC26675976B622FB1CCD336195352 /* Pods-FTFoldableTableView_Example-dummy.m */; };
+		0DCCF4E72A95B791AC9A23CBC7C7804F /* FTFoldItemList.m in Sources */ = {isa = PBXBuildFile; fileRef = 62016D3B1AFCBD92C66ABB42D3D2EC7D /* FTFoldItemList.m */; };
+		20BE89DBC7222B18C81B017B72E26DA9 /* FTFoldItemList.h in Headers */ = {isa = PBXBuildFile; fileRef = C3F12894A3B082F7500D4C60C3707788 /* FTFoldItemList.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2EF5A3471904B9E0E557CA20E2316AB8 /* FTFoldableTableView.bundle in Resources */ = {isa = PBXBuildFile; fileRef = CFD5DC789957D7A5622F217134A2D93C /* FTFoldableTableView.bundle */; };
+		4521A955ADD279170FE4B8E4E99E867D /* Pods-FTFoldableTableView_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DBD7E46A6C9423508A2E75CDF753A5CC /* Pods-FTFoldableTableView_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4EDC42159CABE6512879095605F18DB5 /* Pods-FTFoldableTableView_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F3D79CD2A4FD3C43A0C8DD4948D35149 /* Pods-FTFoldableTableView_Tests-dummy.m */; };
+		65ECB6B52F18D37FC9C1AF5DBD80891D /* FTFoldableTableView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 190226127F73A5A045FCAD59B52AC16C /* FTFoldableTableView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		693E68901C33F194024D56AF81F7E117 /* FTFoldableTableView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B2832EA6F6D5BC9C8B817743F194222 /* FTFoldableTableView-dummy.m */; };
+		6D7CCA9F03AAC30C2D8302AA8749BABD /* Pods-FTFoldableTableView_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 87E1C7F94C5F5E662FB1DFF074FE8B78 /* Pods-FTFoldableTableView_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		76846BDFF5645C0FED7ED2A8B3B88B68 /* FTFoldableTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = E442B69E8663C982525FDC664E3373E6 /* FTFoldableTableView.m */; };
+		7B3C1DC97F044EE2E6067BBBBDD18C52 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC55988C28BEF4DDCA01EB99E1F27B62 /* Foundation.framework */; };
+		9DC3FEB9470A0CC40EC67E806811B641 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC55988C28BEF4DDCA01EB99E1F27B62 /* Foundation.framework */; };
+		B0825A560A23171A8C5F09D6E9D8D660 /* FTFoldItem.h in Headers */ = {isa = PBXBuildFile; fileRef = 30E61C0FCBC066B980D12DC0B05EE508 /* FTFoldItem.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C4B26A0D84D664650CEC8A5FBF789271 /* FTFoldItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 711215560126A8D7A8B26423D5316CC0 /* FTFoldItem.m */; };
+		D2C448BB573CB70C194210E7D86063BB /* Pods-FTFoldableTableView_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B33856146293E6499F0204105C9444DE /* Pods-FTFoldableTableView_Example-dummy.m */; };
+		E092CAD7D4A252870EE30299507BEE3E /* FTFoldableTableView.h in Headers */ = {isa = PBXBuildFile; fileRef = 1272234FF32D42652127161EBEC98A47 /* FTFoldableTableView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FA446B4C71BAEB65EAEE0D6A910C12AE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC55988C28BEF4DDCA01EB99E1F27B62 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		3EDFC6DB65369D9EB9070BD6FE92CE66 /* PBXContainerItemProxy */ = {
+		09B8D577463B8A5AD0658AEAF66F8D47 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 7AFCD4A0077D576605B8F109C15375E5;
+			remoteGlobalIDString = D06A1C064616D87DF12B41D21225BE0F;
 			remoteInfo = "FTFoldableTableView-FTFoldableTableView";
 		};
-		CB8E507FC1A52B2EC333A553AEA09CA0 /* PBXContainerItemProxy */ = {
+		708A406E497E3B921DC3FCC924F428C2 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 7AFCD4A0077D576605B8F109C15375E5;
-			remoteInfo = "FTFoldableTableView-FTFoldableTableView";
+			remoteGlobalIDString = 2E5EB51A7B442339CC6A21DFD2FDED63;
+			remoteInfo = FTFoldableTableView;
+		};
+		97E7338B06E217C3980FB3AAE8C351B0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2E5EB51A7B442339CC6A21DFD2FDED63;
+			remoteInfo = FTFoldableTableView;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		089EE715664E6F8757657B16EE48BEF4 /* Pods-FTFoldableTableView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FTFoldableTableView_Example.release.xcconfig"; sourceTree = "<group>"; };
-		154336E7108FEA4B7E4E99045A66E342 /* Pods-FTFoldableTableView_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FTFoldableTableView_Tests-umbrella.h"; sourceTree = "<group>"; };
-		15681D327A655960C75CE5B79B82AD75 /* Pods_FTFoldableTableView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FTFoldableTableView_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		01238624E83518EF61ACAACBE22DD946 /* FTFoldableTableView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = FTFoldableTableView.modulemap; sourceTree = "<group>"; };
+		1272234FF32D42652127161EBEC98A47 /* FTFoldableTableView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FTFoldableTableView.h; sourceTree = "<group>"; };
+		190226127F73A5A045FCAD59B52AC16C /* FTFoldableTableView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FTFoldableTableView-umbrella.h"; sourceTree = "<group>"; };
+		214132E51D6FC113FCCAB8E3948DB391 /* FTFoldableTableView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FTFoldableTableView-prefix.pch"; sourceTree = "<group>"; };
 		2B9F2F779138A377F3B38BD0269DC50F /* Pods-FTFoldableTableView_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FTFoldableTableView_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		32C39B7A46D3884DF007F8C04C95758F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		357EB0EC8E78603B14A8932EED3C67B5 /* Pods-FTFoldableTableView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FTFoldableTableView_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		30E61C0FCBC066B980D12DC0B05EE508 /* FTFoldItem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FTFoldItem.h; sourceTree = "<group>"; };
+		3477A870B57674F4D69D2D3BB9DEBED6 /* FTFoldableTableView-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "FTFoldableTableView-Private.xcconfig"; sourceTree = "<group>"; };
+		4B2832EA6F6D5BC9C8B817743F194222 /* FTFoldableTableView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FTFoldableTableView-dummy.m"; sourceTree = "<group>"; };
+		4B9B286F21AF7FD522A083B2D78E8570 /* Pods-FTFoldableTableView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FTFoldableTableView_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		4E1CB67A3DC4B4D97D542562B27802BC /* Pods-FTFoldableTableView_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FTFoldableTableView_Example-resources.sh"; sourceTree = "<group>"; };
+		62016D3B1AFCBD92C66ABB42D3D2EC7D /* FTFoldItemList.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = FTFoldItemList.m; sourceTree = "<group>"; };
 		6BA6BED20AA7C89BA4EF49DA93BA702F /* Pods-FTFoldableTableView_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-FTFoldableTableView_Tests.modulemap"; sourceTree = "<group>"; };
-		6CCB579419B79CE50A359A0EF96A5376 /* FTFoldableTableView.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FTFoldableTableView.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
-		722373B4DEB6463027D37596853AA0EA /* Pods-FTFoldableTableView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FTFoldableTableView_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		709358D7087BB3A4775171C975FA209A /* Pods-FTFoldableTableView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FTFoldableTableView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		711215560126A8D7A8B26423D5316CC0 /* FTFoldItem.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = FTFoldItem.m; sourceTree = "<group>"; };
+		7E1256CF93ECBFCE33C98DAEF9F259F3 /* Pods-FTFoldableTableView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FTFoldableTableView_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		7F96D56EDD55FD9ADCBAEE4760F8FC0C /* Pods-FTFoldableTableView_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FTFoldableTableView_Tests-resources.sh"; sourceTree = "<group>"; };
-		840EC26675976B622FB1CCD336195352 /* Pods-FTFoldableTableView_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FTFoldableTableView_Example-dummy.m"; sourceTree = "<group>"; };
-		8F6B6AEB6FEFE7194D2F84FBDD00148A /* Pods_FTFoldableTableView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FTFoldableTableView_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		910335F1B9FB745D60B62641D8999A28 /* Pods-FTFoldableTableView_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FTFoldableTableView_Example-umbrella.h"; sourceTree = "<group>"; };
+		87E1C7F94C5F5E662FB1DFF074FE8B78 /* Pods-FTFoldableTableView_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FTFoldableTableView_Tests-umbrella.h"; sourceTree = "<group>"; };
+		8A8C77C1DC9590F4491696031A2FA07D /* FTFoldableTableView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FTFoldableTableView.xcconfig; sourceTree = "<group>"; };
 		9489F780A6032CDDA7F550A0B2E5A131 /* Pods-FTFoldableTableView_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FTFoldableTableView_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		998D48FE589BCEAF25AA4955739E193D /* Pods-FTFoldableTableView_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FTFoldableTableView_Tests-dummy.m"; sourceTree = "<group>"; };
 		A2C49509256F5CD85485268BCCF9F16E /* Pods-FTFoldableTableView_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FTFoldableTableView_Example-frameworks.sh"; sourceTree = "<group>"; };
 		A7F650836595566C9A5A006A1B643EF4 /* Pods-FTFoldableTableView_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FTFoldableTableView_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		A9E4E2911B9EEEC000FCBE16 /* FTFoldItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FTFoldItem.h; sourceTree = "<group>"; };
-		A9E4E2921B9EEEC000FCBE16 /* FTFoldItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FTFoldItem.m; sourceTree = "<group>"; };
-		A9E4E2941B9EF45000FCBE16 /* FTFoldItemList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FTFoldItemList.h; sourceTree = "<group>"; };
-		A9E4E2951B9EF45000FCBE16 /* FTFoldItemList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FTFoldItemList.m; sourceTree = "<group>"; };
-		A9E4E2971B9EFB8900FCBE16 /* FTFoldableTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FTFoldableTableView.h; sourceTree = "<group>"; };
-		A9E4E2981B9EFB8900FCBE16 /* FTFoldableTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FTFoldableTableView.m; sourceTree = "<group>"; };
-		AFDF9FEC63BA09407E0B4FF8B9C7080F /* Pods-FTFoldableTableView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FTFoldableTableView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		B33856146293E6499F0204105C9444DE /* Pods-FTFoldableTableView_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FTFoldableTableView_Example-dummy.m"; sourceTree = "<group>"; };
 		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		BC55988C28BEF4DDCA01EB99E1F27B62 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		BF2B1B90E2F782AD4D30D55A7DA69F24 /* FTFoldableTableView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FTFoldableTableView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C3F12894A3B082F7500D4C60C3707788 /* FTFoldItemList.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FTFoldItemList.h; sourceTree = "<group>"; };
 		C76D76A2F0B619F711921AED1BE5C8A8 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CAA58164AE6752C051C484848D5505A1 /* Pods-FTFoldableTableView_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FTFoldableTableView_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		CFD5DC789957D7A5622F217134A2D93C /* FTFoldableTableView.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FTFoldableTableView.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		D0E5114937C51CC66BB2FB1ADAD83CC5 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DBB1072535533A2E47A0E854348A1891 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DBD7E46A6C9423508A2E75CDF753A5CC /* Pods-FTFoldableTableView_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FTFoldableTableView_Example-umbrella.h"; sourceTree = "<group>"; };
 		E3AE106CC193DC5D129D9209111E9E97 /* Pods-FTFoldableTableView_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-FTFoldableTableView_Example.modulemap"; sourceTree = "<group>"; };
+		E442B69E8663C982525FDC664E3373E6 /* FTFoldableTableView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = FTFoldableTableView.m; sourceTree = "<group>"; };
 		EE435E8BD079DCFC5B5E705635D7DC69 /* Pods-FTFoldableTableView_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FTFoldableTableView_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		EEAF4B7E1B733B78570528906CDE58DD /* Pods_FTFoldableTableView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FTFoldableTableView_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F3253BF75B133519946AC1844884058F /* Pods_FTFoldableTableView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FTFoldableTableView_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F3D79CD2A4FD3C43A0C8DD4948D35149 /* Pods-FTFoldableTableView_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FTFoldableTableView_Tests-dummy.m"; sourceTree = "<group>"; };
+		FDC02210DC93623F7864FBE1973A5BA4 /* Pods-FTFoldableTableView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FTFoldableTableView_Example.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		33E9003850182CF374E70CDCAFD6C592 /* Frameworks */ = {
+		3AB478E4196E183DC13F5B9D560A7222 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FA446B4C71BAEB65EAEE0D6A910C12AE /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8B6F9AC49DFFBBD592E2A6D5021A9B5E /* Frameworks */ = {
+		6D157D1A2CD05B9AF04193B9F198FB76 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B703B63E6B4F5A64BAB49241972676B3 /* Foundation.framework in Frameworks */,
+				9DC3FEB9470A0CC40EC67E806811B641 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D232D35A627899A83921730E3CBBBFDE /* Frameworks */ = {
+		8D4E30D9FEE2F93F48AEF06C53C94FC1 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0BBAE7EED5F35591AB12C67F02C5811E /* Foundation.framework in Frameworks */,
+				7B3C1DC97F044EE2E6067BBBBDD18C52 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEDA9A16D0E8CBBEB76697114BA182F3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -103,12 +133,12 @@
 				E3AE106CC193DC5D129D9209111E9E97 /* Pods-FTFoldableTableView_Example.modulemap */,
 				9489F780A6032CDDA7F550A0B2E5A131 /* Pods-FTFoldableTableView_Example-acknowledgements.markdown */,
 				CAA58164AE6752C051C484848D5505A1 /* Pods-FTFoldableTableView_Example-acknowledgements.plist */,
-				840EC26675976B622FB1CCD336195352 /* Pods-FTFoldableTableView_Example-dummy.m */,
+				B33856146293E6499F0204105C9444DE /* Pods-FTFoldableTableView_Example-dummy.m */,
 				A2C49509256F5CD85485268BCCF9F16E /* Pods-FTFoldableTableView_Example-frameworks.sh */,
 				4E1CB67A3DC4B4D97D542562B27802BC /* Pods-FTFoldableTableView_Example-resources.sh */,
-				910335F1B9FB745D60B62641D8999A28 /* Pods-FTFoldableTableView_Example-umbrella.h */,
-				357EB0EC8E78603B14A8932EED3C67B5 /* Pods-FTFoldableTableView_Example.debug.xcconfig */,
-				089EE715664E6F8757657B16EE48BEF4 /* Pods-FTFoldableTableView_Example.release.xcconfig */,
+				DBD7E46A6C9423508A2E75CDF753A5CC /* Pods-FTFoldableTableView_Example-umbrella.h */,
+				7E1256CF93ECBFCE33C98DAEF9F259F3 /* Pods-FTFoldableTableView_Example.debug.xcconfig */,
+				FDC02210DC93623F7864FBE1973A5BA4 /* Pods-FTFoldableTableView_Example.release.xcconfig */,
 			);
 			name = "Pods-FTFoldableTableView_Example";
 			path = "Target Support Files/Pods-FTFoldableTableView_Example";
@@ -121,64 +151,73 @@
 				6BA6BED20AA7C89BA4EF49DA93BA702F /* Pods-FTFoldableTableView_Tests.modulemap */,
 				2B9F2F779138A377F3B38BD0269DC50F /* Pods-FTFoldableTableView_Tests-acknowledgements.markdown */,
 				A7F650836595566C9A5A006A1B643EF4 /* Pods-FTFoldableTableView_Tests-acknowledgements.plist */,
-				998D48FE589BCEAF25AA4955739E193D /* Pods-FTFoldableTableView_Tests-dummy.m */,
+				F3D79CD2A4FD3C43A0C8DD4948D35149 /* Pods-FTFoldableTableView_Tests-dummy.m */,
 				EE435E8BD079DCFC5B5E705635D7DC69 /* Pods-FTFoldableTableView_Tests-frameworks.sh */,
 				7F96D56EDD55FD9ADCBAEE4760F8FC0C /* Pods-FTFoldableTableView_Tests-resources.sh */,
-				154336E7108FEA4B7E4E99045A66E342 /* Pods-FTFoldableTableView_Tests-umbrella.h */,
-				AFDF9FEC63BA09407E0B4FF8B9C7080F /* Pods-FTFoldableTableView_Tests.debug.xcconfig */,
-				722373B4DEB6463027D37596853AA0EA /* Pods-FTFoldableTableView_Tests.release.xcconfig */,
+				87E1C7F94C5F5E662FB1DFF074FE8B78 /* Pods-FTFoldableTableView_Tests-umbrella.h */,
+				709358D7087BB3A4775171C975FA209A /* Pods-FTFoldableTableView_Tests.debug.xcconfig */,
+				4B9B286F21AF7FD522A083B2D78E8570 /* Pods-FTFoldableTableView_Tests.release.xcconfig */,
 			);
 			name = "Pods-FTFoldableTableView_Tests";
 			path = "Target Support Files/Pods-FTFoldableTableView_Tests";
 			sourceTree = "<group>";
 		};
+		427DA6A20BB563A5A625D4097CB19DB4 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				A930DC36D40C0E959287390DB53A09B9 /* Classes */,
+			);
+			path = Pod;
+			sourceTree = "<group>";
+		};
 		53F661C0CA7190D2CF05023FB33D61E4 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
-				32C39B7A46D3884DF007F8C04C95758F /* Foundation.framework */,
+				BC55988C28BEF4DDCA01EB99E1F27B62 /* Foundation.framework */,
 			);
 			name = iOS;
+			sourceTree = "<group>";
+		};
+		7883B5557631C61850FEA64459B77614 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A82A5BA393800ECAB2394F0E04177900 /* FTFoldableTableView */,
+			);
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
-				8F55A5111E931E63D08548FB2AC0556D /* Development Pods */,
+				7883B5557631C61850FEA64459B77614 /* Development Pods */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
 				CCA510CFBEA2D207524CDA0D73C3B561 /* Products */,
 				B229828DB023C4C2B6161803D67D7569 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		8F55A5111E931E63D08548FB2AC0556D /* Development Pods */ = {
+		A82A5BA393800ECAB2394F0E04177900 /* FTFoldableTableView */ = {
 			isa = PBXGroup;
 			children = (
-				BB5F85BCB80A8D971F09A822764FCB5B /* FTFoldableTableView */,
+				427DA6A20BB563A5A625D4097CB19DB4 /* Pod */,
+				B35E2F476D38369EC21561EFEF43F6A5 /* Support Files */,
 			);
-			name = "Development Pods";
+			name = FTFoldableTableView;
+			path = ../..;
 			sourceTree = "<group>";
 		};
-		A9E4E28B1B9EEE8700FCBE16 /* Assets */ = {
+		A930DC36D40C0E959287390DB53A09B9 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				30E61C0FCBC066B980D12DC0B05EE508 /* FTFoldItem.h */,
+				711215560126A8D7A8B26423D5316CC0 /* FTFoldItem.m */,
+				C3F12894A3B082F7500D4C60C3707788 /* FTFoldItemList.h */,
+				62016D3B1AFCBD92C66ABB42D3D2EC7D /* FTFoldItemList.m */,
+				1272234FF32D42652127161EBEC98A47 /* FTFoldableTableView.h */,
+				E442B69E8663C982525FDC664E3373E6 /* FTFoldableTableView.m */,
 			);
-			name = Assets;
-			path = Pod/Assets;
-			sourceTree = "<group>";
-		};
-		A9E4E28D1B9EEE8700FCBE16 /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				A9E4E2911B9EEEC000FCBE16 /* FTFoldItem.h */,
-				A9E4E2921B9EEEC000FCBE16 /* FTFoldItem.m */,
-				A9E4E2941B9EF45000FCBE16 /* FTFoldItemList.h */,
-				A9E4E2951B9EF45000FCBE16 /* FTFoldItemList.m */,
-				A9E4E2971B9EFB8900FCBE16 /* FTFoldableTableView.h */,
-				A9E4E2981B9EFB8900FCBE16 /* FTFoldableTableView.m */,
-			);
-			name = Classes;
-			path = Pod/Classes;
+			path = Classes;
 			sourceTree = "<group>";
 		};
 		B229828DB023C4C2B6161803D67D7569 /* Targets Support Files */ = {
@@ -190,14 +229,19 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		BB5F85BCB80A8D971F09A822764FCB5B /* FTFoldableTableView */ = {
+		B35E2F476D38369EC21561EFEF43F6A5 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				A9E4E28B1B9EEE8700FCBE16 /* Assets */,
-				A9E4E28D1B9EEE8700FCBE16 /* Classes */,
+				01238624E83518EF61ACAACBE22DD946 /* FTFoldableTableView.modulemap */,
+				8A8C77C1DC9590F4491696031A2FA07D /* FTFoldableTableView.xcconfig */,
+				3477A870B57674F4D69D2D3BB9DEBED6 /* FTFoldableTableView-Private.xcconfig */,
+				4B2832EA6F6D5BC9C8B817743F194222 /* FTFoldableTableView-dummy.m */,
+				214132E51D6FC113FCCAB8E3948DB391 /* FTFoldableTableView-prefix.pch */,
+				190226127F73A5A045FCAD59B52AC16C /* FTFoldableTableView-umbrella.h */,
+				DBB1072535533A2E47A0E854348A1891 /* Info.plist */,
 			);
-			name = FTFoldableTableView;
-			path = ../..;
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/FTFoldableTableView";
 			sourceTree = "<group>";
 		};
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
@@ -211,9 +255,10 @@
 		CCA510CFBEA2D207524CDA0D73C3B561 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				6CCB579419B79CE50A359A0EF96A5376 /* FTFoldableTableView.bundle */,
-				15681D327A655960C75CE5B79B82AD75 /* Pods_FTFoldableTableView_Example.framework */,
-				8F6B6AEB6FEFE7194D2F84FBDD00148A /* Pods_FTFoldableTableView_Tests.framework */,
+				CFD5DC789957D7A5622F217134A2D93C /* FTFoldableTableView.bundle */,
+				BF2B1B90E2F782AD4D30D55A7DA69F24 /* FTFoldableTableView.framework */,
+				EEAF4B7E1B733B78570528906CDE58DD /* Pods_FTFoldableTableView_Example.framework */,
+				F3253BF75B133519946AC1844884058F /* Pods_FTFoldableTableView_Tests.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -221,32 +266,98 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		BFCD8856075F193FBAF2D7D8B1436A0F /* Headers */ = {
+		95D557F8DE29EDFEC77BE5864A438757 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BCA0853A62FE5D07F545437E161C944C /* Pods-FTFoldableTableView_Tests-umbrella.h in Headers */,
+				B0825A560A23171A8C5F09D6E9D8D660 /* FTFoldItem.h in Headers */,
+				20BE89DBC7222B18C81B017B72E26DA9 /* FTFoldItemList.h in Headers */,
+				65ECB6B52F18D37FC9C1AF5DBD80891D /* FTFoldableTableView-umbrella.h in Headers */,
+				E092CAD7D4A252870EE30299507BEE3E /* FTFoldableTableView.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D87695F28569D52D1CC019AFC01B1B8B /* Headers */ = {
+		9FE94FC5C79386919F6D52B1008CF092 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				171D64A7754943031FA80190BED1A6A7 /* Pods-FTFoldableTableView_Example-umbrella.h in Headers */,
+				4521A955ADD279170FE4B8E4E99E867D /* Pods-FTFoldableTableView_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C9F9E10D31768853FD20534F7A2111FB /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D7CCA9F03AAC30C2D8302AA8749BABD /* Pods-FTFoldableTableView_Tests-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		7AFCD4A0077D576605B8F109C15375E5 /* FTFoldableTableView-FTFoldableTableView */ = {
+		13AC82AAA06933CE14E68FD86DEB29AD /* Pods-FTFoldableTableView_Example */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F6DEE49F567517CAE1FBC87813DE3033 /* Build configuration list for PBXNativeTarget "FTFoldableTableView-FTFoldableTableView" */;
+			buildConfigurationList = 2A3763D44911DEA435507A127458E652 /* Build configuration list for PBXNativeTarget "Pods-FTFoldableTableView_Example" */;
 			buildPhases = (
-				B493AD7C74CC36E16260F76FA36DBD70 /* Sources */,
-				33E9003850182CF374E70CDCAFD6C592 /* Frameworks */,
-				9D57D74E03CC2A26583A90868CAEAD11 /* Resources */,
+				00031AB7A09E9CBB13D5525C8A30B78B /* Sources */,
+				8D4E30D9FEE2F93F48AEF06C53C94FC1 /* Frameworks */,
+				9FE94FC5C79386919F6D52B1008CF092 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0E5BFC13143C421E4B2C3E150B61D2A0 /* PBXTargetDependency */,
+			);
+			name = "Pods-FTFoldableTableView_Example";
+			productName = "Pods-FTFoldableTableView_Example";
+			productReference = EEAF4B7E1B733B78570528906CDE58DD /* Pods_FTFoldableTableView_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		2E5EB51A7B442339CC6A21DFD2FDED63 /* FTFoldableTableView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 160EE390B8E0F2E609050C45C0545692 /* Build configuration list for PBXNativeTarget "FTFoldableTableView" */;
+			buildPhases = (
+				222573FE6DC03C102CBBADB000010AC1 /* Sources */,
+				3AB478E4196E183DC13F5B9D560A7222 /* Frameworks */,
+				A73BED6F70C5721A7DE1AF848E9A934F /* Resources */,
+				95D557F8DE29EDFEC77BE5864A438757 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8E81175FB7FEDF28249022EF54C3CFE9 /* PBXTargetDependency */,
+			);
+			name = FTFoldableTableView;
+			productName = FTFoldableTableView;
+			productReference = BF2B1B90E2F782AD4D30D55A7DA69F24 /* FTFoldableTableView.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		594C40F9050D87033440768D880C2F36 /* Pods-FTFoldableTableView_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E8243E42F919207A7ECFC5D59C3D1B31 /* Build configuration list for PBXNativeTarget "Pods-FTFoldableTableView_Tests" */;
+			buildPhases = (
+				48634B18A54EAB418DEA64C14176ADFA /* Sources */,
+				6D157D1A2CD05B9AF04193B9F198FB76 /* Frameworks */,
+				C9F9E10D31768853FD20534F7A2111FB /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				35F71D119547C06802DC17561057DD84 /* PBXTargetDependency */,
+			);
+			name = "Pods-FTFoldableTableView_Tests";
+			productName = "Pods-FTFoldableTableView_Tests";
+			productReference = F3253BF75B133519946AC1844884058F /* Pods_FTFoldableTableView_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		D06A1C064616D87DF12B41D21225BE0F /* FTFoldableTableView-FTFoldableTableView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1EA7331F6BDB8CAE16D505A9849847F0 /* Build configuration list for PBXNativeTarget "FTFoldableTableView-FTFoldableTableView" */;
+			buildPhases = (
+				FF3775747688DDB91EA540F1F82E005A /* Sources */,
+				CEDA9A16D0E8CBBEB76697114BA182F3 /* Frameworks */,
+				1F7B0861206C0B4F4C0673EFEEA22BEF /* Resources */,
 			);
 			buildRules = (
 			);
@@ -254,44 +365,8 @@
 			);
 			name = "FTFoldableTableView-FTFoldableTableView";
 			productName = "FTFoldableTableView-FTFoldableTableView";
-			productReference = 6CCB579419B79CE50A359A0EF96A5376 /* FTFoldableTableView.bundle */;
+			productReference = CFD5DC789957D7A5622F217134A2D93C /* FTFoldableTableView.bundle */;
 			productType = "com.apple.product-type.bundle";
-		};
-		89B7A9607185975123B39CADD7D8319D /* Pods-FTFoldableTableView_Tests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 676BF220E90F036BAE5CD43EAD0C1C6E /* Build configuration list for PBXNativeTarget "Pods-FTFoldableTableView_Tests" */;
-			buildPhases = (
-				0B09FF131042EE84C9EA9CD102C7BD85 /* Sources */,
-				8B6F9AC49DFFBBD592E2A6D5021A9B5E /* Frameworks */,
-				BFCD8856075F193FBAF2D7D8B1436A0F /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				BC092DA96EFA5E8701072612791472BC /* PBXTargetDependency */,
-			);
-			name = "Pods-FTFoldableTableView_Tests";
-			productName = "Pods-FTFoldableTableView_Tests";
-			productReference = 8F6B6AEB6FEFE7194D2F84FBDD00148A /* Pods_FTFoldableTableView_Tests.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		98738C9A997A2CFF1967191550FC6D19 /* Pods-FTFoldableTableView_Example */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 1E2BCACCF1A83BE34645635124F77CB2 /* Build configuration list for PBXNativeTarget "Pods-FTFoldableTableView_Example" */;
-			buildPhases = (
-				BEE95740DD07CF2A7B2BAC3989E37960 /* Sources */,
-				D232D35A627899A83921730E3CBBBFDE /* Frameworks */,
-				D87695F28569D52D1CC019AFC01B1B8B /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				FA4498826CB73B71DC3598C15F9D3373 /* PBXTargetDependency */,
-			);
-			name = "Pods-FTFoldableTableView_Example";
-			productName = "Pods-FTFoldableTableView_Example";
-			productReference = 15681D327A655960C75CE5B79B82AD75 /* Pods_FTFoldableTableView_Example.framework */;
-			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
 
@@ -314,140 +389,148 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				7AFCD4A0077D576605B8F109C15375E5 /* FTFoldableTableView-FTFoldableTableView */,
-				98738C9A997A2CFF1967191550FC6D19 /* Pods-FTFoldableTableView_Example */,
-				89B7A9607185975123B39CADD7D8319D /* Pods-FTFoldableTableView_Tests */,
+				2E5EB51A7B442339CC6A21DFD2FDED63 /* FTFoldableTableView */,
+				D06A1C064616D87DF12B41D21225BE0F /* FTFoldableTableView-FTFoldableTableView */,
+				13AC82AAA06933CE14E68FD86DEB29AD /* Pods-FTFoldableTableView_Example */,
+				594C40F9050D87033440768D880C2F36 /* Pods-FTFoldableTableView_Tests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		9D57D74E03CC2A26583A90868CAEAD11 /* Resources */ = {
+		1F7B0861206C0B4F4C0673EFEEA22BEF /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		A73BED6F70C5721A7DE1AF848E9A934F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2EF5A3471904B9E0E557CA20E2316AB8 /* FTFoldableTableView.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		0B09FF131042EE84C9EA9CD102C7BD85 /* Sources */ = {
+		00031AB7A09E9CBB13D5525C8A30B78B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				92C062B60FD21844268DAEAD074F4DAA /* Pods-FTFoldableTableView_Tests-dummy.m in Sources */,
+				D2C448BB573CB70C194210E7D86063BB /* Pods-FTFoldableTableView_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B493AD7C74CC36E16260F76FA36DBD70 /* Sources */ = {
+		222573FE6DC03C102CBBADB000010AC1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A9E4E2931B9EEEC000FCBE16 /* FTFoldItem.m in Sources */,
-				A9E4E2991B9EFB8900FCBE16 /* FTFoldableTableView.m in Sources */,
-				A9E4E2961B9EF45000FCBE16 /* FTFoldItemList.m in Sources */,
+				C4B26A0D84D664650CEC8A5FBF789271 /* FTFoldItem.m in Sources */,
+				0DCCF4E72A95B791AC9A23CBC7C7804F /* FTFoldItemList.m in Sources */,
+				693E68901C33F194024D56AF81F7E117 /* FTFoldableTableView-dummy.m in Sources */,
+				76846BDFF5645C0FED7ED2A8B3B88B68 /* FTFoldableTableView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		BEE95740DD07CF2A7B2BAC3989E37960 /* Sources */ = {
+		48634B18A54EAB418DEA64C14176ADFA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F9E01B7334D655C9678F46122B310F28 /* Pods-FTFoldableTableView_Example-dummy.m in Sources */,
+				4EDC42159CABE6512879095605F18DB5 /* Pods-FTFoldableTableView_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF3775747688DDB91EA540F1F82E005A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		BC092DA96EFA5E8701072612791472BC /* PBXTargetDependency */ = {
+		0E5BFC13143C421E4B2C3E150B61D2A0 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = "FTFoldableTableView-FTFoldableTableView";
-			target = 7AFCD4A0077D576605B8F109C15375E5 /* FTFoldableTableView-FTFoldableTableView */;
-			targetProxy = CB8E507FC1A52B2EC333A553AEA09CA0 /* PBXContainerItemProxy */;
+			name = FTFoldableTableView;
+			target = 2E5EB51A7B442339CC6A21DFD2FDED63 /* FTFoldableTableView */;
+			targetProxy = 708A406E497E3B921DC3FCC924F428C2 /* PBXContainerItemProxy */;
 		};
-		FA4498826CB73B71DC3598C15F9D3373 /* PBXTargetDependency */ = {
+		35F71D119547C06802DC17561057DD84 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FTFoldableTableView;
+			target = 2E5EB51A7B442339CC6A21DFD2FDED63 /* FTFoldableTableView */;
+			targetProxy = 97E7338B06E217C3980FB3AAE8C351B0 /* PBXContainerItemProxy */;
+		};
+		8E81175FB7FEDF28249022EF54C3CFE9 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "FTFoldableTableView-FTFoldableTableView";
-			target = 7AFCD4A0077D576605B8F109C15375E5 /* FTFoldableTableView-FTFoldableTableView */;
-			targetProxy = 3EDFC6DB65369D9EB9070BD6FE92CE66 /* PBXContainerItemProxy */;
+			target = D06A1C064616D87DF12B41D21225BE0F /* FTFoldableTableView-FTFoldableTableView */;
+			targetProxy = 09B8D577463B8A5AD0658AEAF66F8D47 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		22109951C66A90B1D8981EB337C74924 /* Release */ = {
+		0A2813A56E2C6AD0B556A7E352BEDC0C /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 722373B4DEB6463027D37596853AA0EA /* Pods-FTFoldableTableView_Tests.release.xcconfig */;
+			baseConfigurationReference = 3477A870B57674F4D69D2D3BB9DEBED6 /* FTFoldableTableView-Private.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 0.1.0;
 				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_COMPATIBILITY_VERSION = 0.1.0;
+				DYLIB_CURRENT_VERSION = "$(CURRENT_PROJECT_VERSION)";
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-FTFoldableTableView_Tests/Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/FTFoldableTableView/FTFoldableTableView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FTFoldableTableView/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Pods-FTFoldableTableView_Tests/Pods-FTFoldableTableView_Tests.modulemap";
+				MODULEMAP_FILE = "Target Support Files/FTFoldableTableView/FTFoldableTableView.modulemap";
 				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_NAME = Pods_FTFoldableTableView_Tests;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		2F96F8DDA62B73CF9D0A4890AFC01C24 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 089EE715664E6F8757657B16EE48BEF4 /* Pods-FTFoldableTableView_Example.release.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-FTFoldableTableView_Example/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Pods-FTFoldableTableView_Example/Pods-FTFoldableTableView_Example.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_NAME = Pods_FTFoldableTableView_Example;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		38DBC9353DFE09E29E06296E642D2900 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				PRODUCT_NAME = FTFoldableTableView;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				WRAPPER_EXTENSION = bundle;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
 		};
-		57089DE3FBD3E38BD1CF4FD8CB073E5A /* Debug */ = {
+		0F530BCD1C42AB2FB3ED8DF3E9556D53 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 357EB0EC8E78603B14A8932EED3C67B5 /* Pods-FTFoldableTableView_Example.debug.xcconfig */;
+			baseConfigurationReference = 3477A870B57674F4D69D2D3BB9DEBED6 /* FTFoldableTableView-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 0.1.0;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 0.1.0;
+				DYLIB_CURRENT_VERSION = "$(CURRENT_PROJECT_VERSION)";
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/FTFoldableTableView/FTFoldableTableView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FTFoldableTableView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/FTFoldableTableView/FTFoldableTableView.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = FTFoldableTableView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		4179DBCDF26A666EFDFAA2D6740F4FC9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7E1256CF93ECBFCE33C98DAEF9F259F3 /* Pods-FTFoldableTableView_Example.debug.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
@@ -474,16 +557,63 @@
 			};
 			name = Debug;
 		};
-		681F1164E2C623F340CC508AD2D43AA9 /* Debug */ = {
+		4A6060DF6B42380DDEDAFB7FCDFDAE2D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4B9B286F21AF7FD522A083B2D78E8570 /* Pods-FTFoldableTableView_Tests.release.xcconfig */;
 			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				PRODUCT_NAME = FTFoldableTableView;
+				INFOPLIST_FILE = "Target Support Files/Pods-FTFoldableTableView_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-FTFoldableTableView_Tests/Pods-FTFoldableTableView_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_FTFoldableTableView_Tests;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				WRAPPER_EXTENSION = bundle;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
+			name = Release;
+		};
+		4A696FC3519CD82D72A052E088F648B8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FDC02210DC93623F7864FBE1973A5BA4 /* Pods-FTFoldableTableView_Example.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-FTFoldableTableView_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-FTFoldableTableView_Example/Pods-FTFoldableTableView_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_FTFoldableTableView_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
 		};
 		A70CDAD61F90AC503C7D04CC22DA2923 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -524,9 +654,33 @@
 			};
 			name = Debug;
 		};
-		AA69B5481E8E33B87A015B969ABAD6AD /* Debug */ = {
+		D82B567066EF926DD4BD40AA9759E9C7 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = AFDF9FEC63BA09407E0B4FF8B9C7080F /* Pods-FTFoldableTableView_Tests.debug.xcconfig */;
+			baseConfigurationReference = 3477A870B57674F4D69D2D3BB9DEBED6 /* FTFoldableTableView-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = FTFoldableTableView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		D96F70CE52270004407F0ACF89D7265A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3477A870B57674F4D69D2D3BB9DEBED6 /* FTFoldableTableView-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = FTFoldableTableView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		E3E1AA898975A437A3FB18F6EB8332C8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 709358D7087BB3A4775171C975FA209A /* Pods-FTFoldableTableView_Tests.debug.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
@@ -590,11 +744,29 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		1E2BCACCF1A83BE34645635124F77CB2 /* Build configuration list for PBXNativeTarget "Pods-FTFoldableTableView_Example" */ = {
+		160EE390B8E0F2E609050C45C0545692 /* Build configuration list for PBXNativeTarget "FTFoldableTableView" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				57089DE3FBD3E38BD1CF4FD8CB073E5A /* Debug */,
-				2F96F8DDA62B73CF9D0A4890AFC01C24 /* Release */,
+				0F530BCD1C42AB2FB3ED8DF3E9556D53 /* Debug */,
+				0A2813A56E2C6AD0B556A7E352BEDC0C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1EA7331F6BDB8CAE16D505A9849847F0 /* Build configuration list for PBXNativeTarget "FTFoldableTableView-FTFoldableTableView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D82B567066EF926DD4BD40AA9759E9C7 /* Debug */,
+				D96F70CE52270004407F0ACF89D7265A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2A3763D44911DEA435507A127458E652 /* Build configuration list for PBXNativeTarget "Pods-FTFoldableTableView_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4179DBCDF26A666EFDFAA2D6740F4FC9 /* Debug */,
+				4A696FC3519CD82D72A052E088F648B8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -608,20 +780,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		676BF220E90F036BAE5CD43EAD0C1C6E /* Build configuration list for PBXNativeTarget "Pods-FTFoldableTableView_Tests" */ = {
+		E8243E42F919207A7ECFC5D59C3D1B31 /* Build configuration list for PBXNativeTarget "Pods-FTFoldableTableView_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				AA69B5481E8E33B87A015B969ABAD6AD /* Debug */,
-				22109951C66A90B1D8981EB337C74924 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		F6DEE49F567517CAE1FBC87813DE3033 /* Build configuration list for PBXNativeTarget "FTFoldableTableView-FTFoldableTableView" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				681F1164E2C623F340CC508AD2D43AA9 /* Debug */,
-				38DBC9353DFE09E29E06296E642D2900 /* Release */,
+				E3E1AA898975A437A3FB18F6EB8332C8 /* Debug */,
+				4A6060DF6B42380DDEDAFB7FCDFDAE2D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

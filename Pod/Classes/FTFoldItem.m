@@ -10,7 +10,6 @@
 
 @interface FTFoldItem ()
 
-@property(nonatomic, copy)NSString *foldName;
 @property(nonatomic, strong)FTFoldItem *superFoldItem;
 
 @property(nonatomic, strong)NSMutableDictionary *identifiderFoldItem;
