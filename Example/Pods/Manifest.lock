@@ -9,6 +9,6 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  FTFoldableTableView: af56f61146ed146ee692682605cf2ae289737179
+  FTFoldableTableView: 1fdae1e9b290bcb8fd08cb44bdcaf0ee9fb1f882
 
 COCOAPODS: 0.38.2
