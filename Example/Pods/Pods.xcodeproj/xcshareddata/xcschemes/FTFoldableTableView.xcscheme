@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "0341D110EF49A949DB8A6FA2"
+               BlueprintIdentifier = "EC6EEA43ACF205674A599BDE"
                BuildableName = "FTFoldableTableView.framework"
                BlueprintName = "FTFoldableTableView"
                ReferencedContainer = "container:Pods.xcodeproj">
